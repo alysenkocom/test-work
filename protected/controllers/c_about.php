@@ -3,11 +3,11 @@
 class C_About extends Controller
 {
     
-    //берем шаблон.
-    //public $template = 'main/template.php'; // шаблон модуля
-    public $template = 'template.php';
+	//берем шаблон.
+    	//public $template = 'main/template.php'; // шаблон модуля
+    	public $template = 'template.php';
     
-    function __construct()
+    	function __construct()
 	{        
 		$this->model = new About();
 		$this->view = new View();
@@ -15,18 +15,18 @@ class C_About extends Controller
 	}
 	
 	
-    function action_index()
+    	function action_index()
 	{  
-	   $data = $this->model->get_data();
-	   $this->view->generate('about/view.php', $this->template, $data);
+	   	$data = $this->model->get_data();
+		$this->view->generate('about/view.php', $this->template, $data);
 	}
     
     
     
 	function action_test()
 	{
-        $data = $this->model->get_data();
-        $this->view->generate('about/test.tpl', $this->template, $data);
+	        $data = $this->model->get_data();
+	        $this->view->generate('about/test.tpl', $this->template, $data);
 	}
     
     
