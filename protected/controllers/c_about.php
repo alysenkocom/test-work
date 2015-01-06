@@ -3,7 +3,7 @@
 class C_About extends Controller
 {
     
-    // бермем шаблон.
+    //берем шаблон.
     //public $template = 'main/template.php'; // шаблон модуля
     public $template = 'template.php';
     
