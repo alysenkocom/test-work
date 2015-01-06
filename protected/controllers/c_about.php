@@ -1,10 +1,12 @@
 <?php
 
+/**
+ *  C_About Controller
+ * /
 class C_About extends Controller
 {
     
-	//берем шаблон.
-    	//public $template = 'main/template.php'; // шаблон модуля
+    	//public $template = 'main/template.php'; // template module
     	public $template = 'template.php';
     
     	function __construct()
