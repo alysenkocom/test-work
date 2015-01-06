@@ -3,7 +3,7 @@ test-work
 
 http://sz9.96.lt - to see
 
-Used:
+Use:
 - PHP
 - MySQL
 - Smarty
