@@ -2,7 +2,7 @@
 
 /**
  *  C_About Controller
- * /
+ */
 class C_About extends Controller
 {
     
